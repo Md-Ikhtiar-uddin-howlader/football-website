@@ -1,0 +1,255 @@
+
+body{
+    margin: 0;
+    margin-top: -16px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+}
+.btn{
+   
+    background-color: rgba(223,45,105,255);
+    border: 0px ;
+    color: white;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+/* hero*/
+.hero{
+    background-color: rgba(46,37,154,255);
+    height: 660px;
+    width: 100%;
+}
+/*navbar*/
+.navbar{
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+
+.navbar ul li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 50px;
+    color: white;
+    height: 60%;
+    padding: 10px;
+    transition: .1s ease;
+    border-radius: 10px;
+}
+.navbar ul li:hover{
+    background-color: rgba(128, 128, 128, 0.267);
+}
+.login{
+    height: 50%;
+    width: 5%;
+    position: relative;
+    right: 60px;
+    top: 50px;
+    
+}
+.btn:hover{
+    background-color: rgba(223, 45, 104, 0.76);
+}
+.ham-menu{
+    filter: brightness(0) invert(1);
+    display: none;
+}
+/*navbar*/
+/*hero banner*/
+.head-banner{
+    display: flex;
+    justify-content: space-between;
+}
+.head-banner img{
+    height: 500px;
+    position: relative;
+    right: 130px;
+}
+/*hero heading*/
+.hero-heading{
+    color: white;
+    width: 24%;
+    font-size: 45px;
+    position: relative;
+    left: 224px;
+    top: 95px;
+    height: 62%;
+}
+.hero-heading h1{
+    margin: 0;
+}
+.watch{
+    width: 44%;
+    height: 45px;
+}
+
+/* ----------players---------- */
+.player{
+    /* padding-left: 150px; */
+}
+.players h1{
+    position: relative;
+    left: 140px;
+    font-size: 50px;
+    width: 15%;
+    display: inline-block;
+    
+
+   
+    
+
+
+}
+.player-items{
+    display: grid;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    
+    
+    grid-row-gap: 50px;
+    width: 100%;
+    position: relative;
+    
+    
+    margin-top: 75px;
+}
+.player-item{
+    margin-bottom: 50px;
+    max-height: 575px;
+    /* height: 477px; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    transition: .3s ease;
+    
+    
+    /* align-items: center; */
+}
+.player-item:hover{
+    box-shadow: none;
+}
+
+
+
+.player-item img{
+    height: 308px;
+    width: 370px;
+    margin: 34px auto;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+.player-item:hover img{
+    transform: scale(1.05);
+}
+.player-item h3,p{
+    
+    margin-left: 20px;
+    margin-top: 0;
+}
+.player-item p{
+    font-size: 12px;
+    width: 88%;
+    margin-bottom: 25px;
+}
+/*highlights*/
+.highlights{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+.highlights-img img{
+    height: 449px;
+    width: 716px;
+    position: relative;
+    right: 90px;
+    border-radius: 5px;
+}
+.heading{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    align-items: flex-start;
+}
+.heading h1{
+    width: 74%;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.heading p{
+    width: 45%;
+    margin: 0;
+    position: relative;
+    
+    margin-bottom: 28px;
+}
+.now{
+    position: relative;
+    
+    width: 23%;
+}
+/*memory*/
+
+.memory-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.memory h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.img-item{
+    height: 500px;
+    width: 614px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.memory img{
+    height: 370px;
+    width: 476px;
+    border-radius: 20px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.memory img:hover{
+    box-shadow: 5px 5px 20px gray;
+    transform: scale(1.1);
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.social-icon img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+
